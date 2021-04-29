@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1>COUNTER123</h1>
+        <h1>COUNTER</h1>
         <div id="wrapper"  >
           <button id="minusButton" onClick={() => setNum(num - 1)} >-</button>
           <p id="number" >{num}</p> 
