@@ -11,7 +11,7 @@ function App() {
         <div id="wrapper"  >
           <button id="minusButton" onClick={() => setNum(num - 1)} >-</button>
           <p id="number" >{num}</p> 
-          <button id="plusButton" onClick={() => setNum(num + 1)} >+</button>
+          <button id="plusButton" onClick={() => setNum(num + 3)} >+</button>
         </div>
         <div id="madeBy"></div>
     </div>
